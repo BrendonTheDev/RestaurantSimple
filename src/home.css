@@ -12,8 +12,9 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
-  background-image: url(../src/narutoRamen.jpg);
-  background-size: cover;
+  background-color: #9a0000;
+  /* background-image: url(../src/narutoRamen.jpg);
+  background-size: cover; */
 }
 
 img,
@@ -42,4 +43,9 @@ select {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+
+#background-home {
+  background-image: url(../src/narutoRamen.jpg);
+  background-size: cover;
 }

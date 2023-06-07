@@ -1,12 +1,16 @@
-export function component() {
-  const headerDiv = document.createElement("div");
-  headerDiv.classList.add("headerDiv");
+// import images here
 
-  let header = document.createElement("h1");
-  header.textContent = "Load Header Here";
-  header.classList.add("headingText");
+const home = function () {
+  const content = document.getElementById("content");
 
-  headerDiv.appendChild(header);
+  const backgroundHome = document.createElement("div");
+  backgroundHome.id = "background-home";
+  content.appendChild(backgroundHome);
 
-  return headerDiv;
-}
+  const pageLoad = document.createElement("div");
+  pageLoad.className = "pageLoad";
+
+  content.appendChild(pageLoad);
+};
+
+export default home;
